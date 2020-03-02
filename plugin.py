@@ -1,5 +1,6 @@
 from gui.plugins import basePlugin
 from gui.widgets import categoryPage
+from gui.detailPage import DetailPage
 import os
 from appstore import Appstore
 from .fusee_wrapper import fusee_object
