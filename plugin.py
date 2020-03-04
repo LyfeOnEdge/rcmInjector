@@ -1,10 +1,9 @@
-from gui.plugins import basePlugin
-from gui.widgets import categoryPage
-from gui.detailPage import DetailPage
 import os
+import style
+from gui.widgets import basePlugin, categoryPage
+from gui.detailPage import DetailPage
 from appstore import Appstore
 from .fusee_wrapper import fusee_object
-import style
 
 #Wrapper to objectify fusee script, passed print function for stdout
 fusee = fusee_object(print)

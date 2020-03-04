@@ -1,1 +1,0 @@
-from gui.plugins.rcmInjector.plugin import setup
